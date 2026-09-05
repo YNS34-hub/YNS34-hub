@@ -15,6 +15,9 @@ A long-term research space connecting nonlinear mathematics, AI-assisted scienti
 
 ### Experiments
 
+**[SCI-FI WEB WORKS](https://github.com/YNS34-hub/sci-fi-portfolio)**  
+A ten-piece anthology of interactive web studies around memory, observation, time, atmosphere, and choice.
+
 **[VOID//ECHO](https://github.com/YNS34-hub/void-echo)**  
 A spatial-interface study built around real-time 3D scenes, shader-driven motion, and scroll-based narrative states.
 
