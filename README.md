@@ -1,4 +1,4 @@
-![YNS34 — Mathematics, AI-assisted research and interactive systems](./assets/lab-header.svg)
+<img width="1983" height="793" alt="ChatGPT Image 2026年9月5日 13_27_35" src="https://github.com/user-attachments/assets/67f483fc-f09b-4023-8cbb-69d31a967049" />
 
 # YNS34
 
