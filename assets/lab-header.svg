@@ -1,30 +1,170 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="YNS34 — mathematics, AI-assisted research and interactive systems">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="720" viewBox="0 0 1800 720" role="img" aria-label="YNS34 — Mathematics × AI personal lab">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#0b0d10"/>
-      <stop offset="1" stop-color="#15191e"/>
+      <stop offset="0" stop-color="#02060b"/>
+      <stop offset="0.5" stop-color="#050b13"/>
+      <stop offset="1" stop-color="#02070d"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#d7dce2" stop-opacity=".08"/>
-      <stop offset=".5" stop-color="#d7dce2" stop-opacity=".4"/>
-      <stop offset="1" stop-color="#d7dce2" stop-opacity=".08"/>
+    <radialGradient id="nebula" cx="78%" cy="40%" r="48%">
+      <stop offset="0" stop-color="#1c5a93" stop-opacity="0.20"/>
+      <stop offset="0.44" stop-color="#0d2e50" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#06101a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="34%" cy="27%" r="78%">
+      <stop offset="0" stop-color="#8ec9ff" stop-opacity="0.95"/>
+      <stop offset="0.15" stop-color="#295c8e" stop-opacity="0.80"/>
+      <stop offset="0.42" stop-color="#0a2743" stop-opacity="0.96"/>
+      <stop offset="0.75" stop-color="#03111f"/>
+      <stop offset="1" stop-color="#010812"/>
+    </radialGradient>
+    <radialGradient id="planetHighlight" cx="18%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.76"/>
+      <stop offset="0.12" stop-color="#9ed6ff" stop-opacity="0.28"/>
+      <stop offset="0.48" stop-color="#5cb4ff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c8e8ff" stop-opacity="0.12"/>
+      <stop offset="0.38" stop-color="#6ebeff" stop-opacity="0.98"/>
+      <stop offset="0.62" stop-color="#3389d4" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#0d2f52" stop-opacity="0.04"/>
     </linearGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a9d6ff" stop-opacity="0.05"/>
+      <stop offset="0.42" stop-color="#a7d8ff" stop-opacity="0.78"/>
+      <stop offset="0.65" stop-color="#eef8ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#7fc0ff" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="terrain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#70baff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#1c5c91" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="planetGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.16 0 0 0 0 0.53 0 0 0 0 0.92 0 0 0 0.75 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="starGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="fineGrid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" fill="none" stroke="#80a5c5" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <pattern id="microDots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#7ab7e9" fill-opacity="0.10"/>
+    </pattern>
+    <clipPath id="planetClip"><circle cx="1438" cy="307" r="147"/></clipPath>
   </defs>
-  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
-  <g fill="none" stroke="url(#line)" stroke-width="1">
-    <path d="M700 72c105-60 246-30 306 66 46 73 21 139-62 154-104 18-220-56-244-140-12-42-11-61 0-80Z"/>
-    <path d="M746 92c82-38 184-18 231 47 36 49 20 97-44 113-76 19-160-30-187-86-17-36-17-55 0-74Z"/>
-    <path d="M791 116c56-22 125-10 157 32 23 31 12 62-29 73-50 13-106-16-127-52-14-24-14-39-1-53Z"/>
+
+  <rect width="1800" height="720" rx="28" fill="url(#bg)"/>
+  <rect width="1800" height="720" rx="28" fill="url(#nebula)"/>
+  <rect x="1010" width="790" height="720" fill="url(#fineGrid)" opacity="0.55"/>
+  <rect x="980" width="820" height="720" fill="url(#microDots)" opacity="0.33"/>
+
+  <!-- subtle star field -->
+  <g fill="#cde8ff">
+    <circle cx="1115" cy="86" r="1.4" opacity=".55"/><circle cx="1178" cy="122" r="1" opacity=".40"/>
+    <circle cx="1266" cy="66" r="1.1" opacity=".47"/><circle cx="1327" cy="111" r="1.6" opacity=".66"/>
+    <circle cx="1514" cy="76" r="1.1" opacity=".45"/><circle cx="1583" cy="136" r="1" opacity=".38"/>
+    <circle cx="1668" cy="82" r="1.3" opacity=".52"/><circle cx="1724" cy="188" r="1.2" opacity=".45"/>
+    <circle cx="1199" cy="258" r="1.4" opacity=".54"/><circle cx="1262" cy="342" r="1.1" opacity=".48"/>
+    <circle cx="1594" cy="356" r="1.5" opacity=".60"/><circle cx="1699" cy="420" r="1" opacity=".44"/>
+    <circle cx="1094" cy="460" r="1.1" opacity=".39"/><circle cx="1220" cy="516" r="1.4" opacity=".51"/>
+    <circle cx="1538" cy="516" r="1.3" opacity=".48"/><circle cx="1648" cy="569" r="1.2" opacity=".43"/>
   </g>
-  <g opacity=".14" stroke="#b6bec8" stroke-width="1">
-    <path d="M64 70H1136M64 250H1136"/>
-    <path d="M64 70V250M1136 70V250"/>
+
+  <!-- left editorial typography -->
+  <line x1="82" y1="164" x2="144" y2="164" stroke="#dcefff" stroke-width="2"/>
+  <text x="176" y="173" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="23" font-weight="500" letter-spacing="8" fill="#b7cbe0">PERSONAL LAB / YNS34</text>
+
+  <text x="82" y="315" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="106" font-weight="780" letter-spacing="-5" fill="#f4f7fb">MATHEMATICS</text>
+  <text x="858" y="315" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="90" font-weight="350" fill="#6baef0">×</text>
+  <text x="932" y="315" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="106" font-weight="780" letter-spacing="-4" fill="#f4f7fb">AI</text>
+
+  <text x="84" y="378" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="27" font-weight="350" letter-spacing="4.4" fill="#afc7dd">research tooling · interactive systems · visual studies</text>
+
+  <line x1="82" y1="426" x2="946" y2="426" stroke="#a9cbea" stroke-opacity=".62" stroke-width="1.6"/>
+  <text x="84" y="474" font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="17" font-weight="500" letter-spacing="4.1" fill="#8098af">QUESTION → SYSTEM → EXPERIMENT → VERIFICATION → REFINEMENT</text>
+
+  <!-- orbital system -->
+  <g fill="none" stroke="url(#orbit)" stroke-linecap="round">
+    <ellipse cx="1424" cy="319" rx="356" ry="114" stroke-width="1.6" transform="rotate(15 1424 319)" opacity=".92"/>
+    <ellipse cx="1424" cy="319" rx="298" ry="83" stroke-width="1.3" transform="rotate(-8 1424 319)" opacity=".72"/>
+    <ellipse cx="1428" cy="315" rx="260" ry="144" stroke-width="1.1" transform="rotate(31 1428 315)" opacity=".62"/>
+    <ellipse cx="1430" cy="315" rx="214" ry="173" stroke-width="1" transform="rotate(-28 1430 315)" opacity=".42"/>
+    <ellipse cx="1429" cy="315" rx="385" ry="190" stroke-width="0.9" stroke-dasharray="2 9" transform="rotate(8 1429 315)" opacity=".46"/>
+    <ellipse cx="1429" cy="315" rx="454" ry="237" stroke-width="0.8" stroke-dasharray="1 11" transform="rotate(18 1429 315)" opacity=".28"/>
   </g>
-  <circle cx="905" cy="160" r="4" fill="#e5e7eb"/>
-  <circle cx="1004" cy="114" r="2.5" fill="#9ca3af"/>
-  <circle cx="782" cy="210" r="2.5" fill="#9ca3af"/>
-  <text x="72" y="104" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="4" fill="#7f8995">PERSONAL LAB / YNS34</text>
-  <text x="72" y="174" font-family="Arial,Helvetica,sans-serif" font-size="56" font-weight="700" letter-spacing="-2" fill="#f4f6f8">MATHEMATICS × AI</text>
-  <text x="72" y="215" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing=".4" fill="#a4adb8">research tooling · interactive systems · visual studies</text>
-  <text x="72" y="266" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2.2" fill="#626c78">QUESTION → SYSTEM → EXPERIMENT → VERIFICATION → REFINEMENT</text>
+
+  <!-- 3D sphere -->
+  <circle cx="1438" cy="307" r="162" fill="#1c6ca8" opacity=".13" filter="url(#softGlow)"/>
+  <circle cx="1438" cy="307" r="147" fill="url(#planet)" filter="url(#planetGlow)"/>
+  <circle cx="1438" cy="307" r="147" fill="url(#planetHighlight)" opacity=".75"/>
+  <circle cx="1438" cy="307" r="147" fill="none" stroke="url(#rim)" stroke-width="3.6"/>
+  <g clip-path="url(#planetClip)" fill="none">
+    <path d="M1296 284C1330 248 1378 229 1430 228C1488 227 1538 249 1576 285" stroke="#92cfff" stroke-opacity=".18" stroke-width="1.5"/>
+    <path d="M1308 335C1354 301 1401 289 1447 291C1503 294 1533 313 1570 348" stroke="#64aeea" stroke-opacity=".11" stroke-width="1.2"/>
+    <path d="M1320 386C1376 353 1443 351 1506 370" stroke="#437ba9" stroke-opacity=".16" stroke-width="1"/>
+    <path d="M1362 169C1326 222 1310 279 1319 338C1327 393 1357 430 1394 446" stroke="#8ed0ff" stroke-opacity=".10" stroke-width="1"/>
+    <path d="M1498 173C1538 226 1558 280 1554 334C1550 387 1531 421 1507 442" stroke="#1c5b8d" stroke-opacity=".21" stroke-width="1"/>
+    <ellipse cx="1382" cy="247" rx="63" ry="24" fill="#b7e3ff" fill-opacity=".035" transform="rotate(-23 1382 247)"/>
+    <ellipse cx="1494" cy="337" rx="83" ry="32" fill="#1b70b0" fill-opacity=".05" transform="rotate(17 1494 337)"/>
+  </g>
+
+  <!-- axes and orbital nodes -->
+  <g stroke="#8bbce4" stroke-opacity=".28" stroke-width="1">
+    <line x1="1231" y1="42" x2="1231" y2="659"/>
+    <line x1="1080" y1="358" x2="1741" y2="358"/>
+  </g>
+  <g fill="#eef8ff" filter="url(#starGlow)">
+    <circle cx="1231" cy="358" r="4.6"/>
+    <circle cx="1355" cy="184" r="4.2"/>
+    <circle cx="1331" cy="420" r="5.2"/>
+    <circle cx="1521" cy="334" r="6.1"/>
+    <circle cx="1601" cy="485" r="4.7"/>
+  </g>
+  <g fill="#8fc9f5" opacity=".8">
+    <circle cx="1174" cy="273" r="2.4"/><circle cx="1278" cy="230" r="2.2"/><circle cx="1674" cy="302" r="2.4"/>
+  </g>
+
+  <!-- formula and research labels -->
+  <text x="1513" y="96" font-family="Georgia,Times New Roman,serif" font-size="29" font-style="italic" fill="#cfdef0" opacity=".88">f(x) = ∫ ℛ(x, θ) dθ</text>
+  <g font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="4.1" fill="#91a8bc">
+    <text x="1622" y="207">MODELS</text>
+    <text x="1622" y="229">ALGORITHMS</text>
+    <text x="1622" y="251">VISUALIZATION</text>
+    <text x="1622" y="273">UNDERSTANDING</text>
+    <line x1="1622" y1="293" x2="1654" y2="293" stroke="#91a8bc" stroke-opacity=".7"/>
+  </g>
+
+  <!-- lower data terrain -->
+  <g opacity=".78">
+    <path d="M0 584C156 542 286 555 405 592C560 640 699 593 845 558C948 533 1063 540 1160 573C1264 608 1397 618 1512 588C1627 557 1706 558 1800 584V720H0Z" fill="url(#terrain)" opacity=".18"/>
+    <path d="M0 596C177 551 302 564 420 603C569 653 697 606 847 570C985 536 1103 548 1209 585" fill="none" stroke="#5ca9e7" stroke-opacity=".25" stroke-width="1.2"/>
+    <path d="M0 626C175 582 311 591 442 628C587 669 704 632 863 597C996 568 1118 576 1250 618" fill="none" stroke="#4484bb" stroke-opacity=".19" stroke-width="1"/>
+    <path d="M0 654C176 611 318 620 453 651C589 683 734 659 884 628C1006 603 1123 609 1272 651" fill="none" stroke="#3f79ab" stroke-opacity=".15" stroke-width="1"/>
+  </g>
+  <g fill="#76bdf5">
+    <circle cx="39" cy="620" r="2.1" opacity=".75"/><circle cx="73" cy="605" r="1.5" opacity=".50"/><circle cx="117" cy="595" r="1.7" opacity=".62"/>
+    <circle cx="171" cy="587" r="1.3" opacity=".46"/><circle cx="223" cy="589" r="1.8" opacity=".70"/><circle cx="283" cy="598" r="1.2" opacity=".52"/>
+    <circle cx="342" cy="616" r="1.6" opacity=".58"/><circle cx="406" cy="631" r="1.4" opacity=".53"/><circle cx="478" cy="640" r="1.8" opacity=".63"/>
+    <circle cx="548" cy="627" r="1.2" opacity=".47"/><circle cx="618" cy="608" r="1.7" opacity=".57"/><circle cx="690" cy="590" r="1.2" opacity=".50"/>
+    <circle cx="767" cy="575" r="1.4" opacity=".56"/><circle cx="850" cy="561" r="1.5" opacity=".58"/><circle cx="936" cy="555" r="1.2" opacity=".46"/>
+  </g>
+
+  <text x="563" y="632" font-family="Georgia,Times New Roman,serif" font-size="19" font-style="italic" fill="#90a9bf" opacity=".76">Mathematics</text>
+  <text x="563" y="657" font-family="Georgia,Times New Roman,serif" font-size="19" font-style="italic" fill="#90a9bf" opacity=".76">for a clearer</text>
+  <text x="563" y="682" font-family="Georgia,Times New Roman,serif" font-size="19" font-style="italic" fill="#90a9bf" opacity=".76">tomorrow.</text>
+
+  <g font-family="Inter,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="3.6" fill="#8aa0b4">
+    <text x="1620" y="575">A MORE</text>
+    <text x="1620" y="596">INTELLIGENT</text>
+    <text x="1620" y="617">QUESTIONING</text>
+    <text x="1620" y="638">WORLD</text>
+    <line x1="1620" y1="658" x2="1655" y2="658" stroke="#9fb7cb" stroke-opacity=".72"/>
+  </g>
 </svg>
