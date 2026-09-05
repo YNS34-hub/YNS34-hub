@@ -1,3 +1,5 @@
+![YNS34 — Mathematics, AI-assisted research and interactive systems](./assets/lab-header.svg)
+
 # YNS34
 
 **Mathematics · AI-assisted research · interactive systems**
