@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="YNS34 — mathematics, AI-assisted research and interactive systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b0d10"/>
+      <stop offset="1" stop-color="#15191e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#d7dce2" stop-opacity=".08"/>
+      <stop offset=".5" stop-color="#d7dce2" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#d7dce2" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#line)" stroke-width="1">
+    <path d="M700 72c105-60 246-30 306 66 46 73 21 139-62 154-104 18-220-56-244-140-12-42-11-61 0-80Z"/>
+    <path d="M746 92c82-38 184-18 231 47 36 49 20 97-44 113-76 19-160-30-187-86-17-36-17-55 0-74Z"/>
+    <path d="M791 116c56-22 125-10 157 32 23 31 12 62-29 73-50 13-106-16-127-52-14-24-14-39-1-53Z"/>
+  </g>
+  <g opacity=".14" stroke="#b6bec8" stroke-width="1">
+    <path d="M64 70H1136M64 250H1136"/>
+    <path d="M64 70V250M1136 70V250"/>
+  </g>
+  <circle cx="905" cy="160" r="4" fill="#e5e7eb"/>
+  <circle cx="1004" cy="114" r="2.5" fill="#9ca3af"/>
+  <circle cx="782" cy="210" r="2.5" fill="#9ca3af"/>
+  <text x="72" y="104" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="4" fill="#7f8995">PERSONAL LAB / YNS34</text>
+  <text x="72" y="174" font-family="Arial,Helvetica,sans-serif" font-size="56" font-weight="700" letter-spacing="-2" fill="#f4f6f8">MATHEMATICS × AI</text>
+  <text x="72" y="215" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing=".4" fill="#a4adb8">research tooling · interactive systems · visual studies</text>
+  <text x="72" y="266" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2.2" fill="#626c78">QUESTION → SYSTEM → EXPERIMENT → VERIFICATION → REFINEMENT</text>
+</svg>
