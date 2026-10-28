@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="350" viewBox="0 0 780 350" role="img" aria-label="PETRI &amp; ONE-SECOND — Sensory &amp; Social Micro-Experiments">
+  <defs>
+    <linearGradient id="bgMicro" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060913"/>
+      <stop offset="100%" stop-color="#0d172a"/>
+    </linearGradient>
+    <radialGradient id="glowMicro" cx="85%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#060913" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderMicro" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.45"/>
+    </linearGradient>
+    <pattern id="gridMicro" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94a3b8" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clipMicro">
+      <rect width="780" height="350" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clipMicro)">
+    <rect width="780" height="350" fill="url(#bgMicro)"/>
+    <rect width="780" height="350" fill="url(#glowMicro)"/>
+    <rect width="780" height="350" fill="url(#gridMicro)"/>
+
+    <!-- Cellular Petri Dish & 1.000s Chronometer Artwork (Top Right) -->
+    <g transform="translate(536, 26)" fill="none" opacity="0.9">
+      <circle cx="96" cy="62" r="50" stroke="#f472b6" stroke-opacity="0.55" stroke-width="1.5"/>
+      <circle cx="96" cy="62" r="42" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="2 5"/>
+      <circle cx="80" cy="52" r="10" fill="#f472b6" fill-opacity="0.22" stroke="#f472b6" stroke-width="1.2"/>
+      <circle cx="110" cy="68" r="14" fill="#38bdf8" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1.2"/>
+      <circle cx="92" cy="80" r="6" fill="#e2e8f0"/>
+      <text x="36" y="136" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="2" fill="#f472b6">LAB // PETRI × 1.000S</text>
+    </g>
+
+    <!-- Index Badge -->
+    <g transform="translate(42, 38)">
+      <rect x="0" y="0" width="214" height="26" rx="13" fill="#231024" stroke="#f472b6" stroke-opacity="0.45"/>
+      <text x="14" y="17" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.8" fill="#f9a8d4">MICRO-SYSTEMS // 07</text>
+    </g>
+
+    <!-- Title & Subtitle -->
+    <g transform="translate(42, 108)">
+      <text x="0" y="0" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="29" font-weight="800" letter-spacing="-0.8" fill="#ffffff">PETRI &amp; ONE-SECOND</text>
+      <text x="0" y="28" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="600" fill="#f9a8d4">推友培养皿 &amp; 恰好一秒 · 社交生命模拟与直觉手感实验</text>
+    </g>
+
+    <!-- Description -->
+    <g transform="translate(42, 174)" font-family="Inter, -apple-system, sans-serif" font-size="14" fill="#94a3b8">
+      <text x="0" y="0">Two playful interactive experiments: <tspan fill="#e2e8f0" font-weight="600">Petri</tspan> mutates social handles into</text>
+      <text x="0" y="23">procedural digital organisms, while <tspan fill="#e2e8f0" font-weight="600">One-Second</tspan> tests human temporal</text>
+      <text x="0" y="46">perception with <tspan fill="#f9a8d4" font-weight="600">millisecond-precision tactile release feedback</tspan>.</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="42" y1="256" x2="738" y2="256" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Tech Stack & Action Link -->
+    <g transform="translate(42, 278)" font-family="'JetBrains Mono', Consolas, monospace" font-size="11">
+      <rect x="0" y="0" width="110" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="18" fill="#f9a8d4">JavaScript</text>
+
+      <rect x="122" y="0" width="144" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="136" y="18" fill="#e2e8f0">Procedural Life</text>
+
+      <rect x="278" y="0" width="136" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="292" y="18" fill="#7dd3fc">Tactile Timing</text>
+
+      <text x="568" y="18" fill="#f9a8d4" font-weight="600">EXPLORE REPO ↗</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="778" height="348" rx="17" fill="none" stroke="url(#borderMicro)" stroke-width="2"/>
+</svg>

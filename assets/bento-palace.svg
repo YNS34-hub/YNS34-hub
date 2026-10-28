@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="410" viewBox="0 0 1600 410" role="img" aria-label="Featured Flagship World — THE MEMORY PALACE (yns34-hub.github.io)">
+  <defs>
+    <linearGradient id="palaceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050a14"/>
+      <stop offset="50%" stop-color="#091324"/>
+      <stop offset="100%" stop-color="#040811"/>
+    </linearGradient>
+
+    <radialGradient id="palaceGlow" cx="74%" cy="50%" r="52%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#1e3a8a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#040811" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="palaceBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.65"/>
+      <stop offset="40%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="75%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <linearGradient id="wingStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <pattern id="palaceGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#94a3b8" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="palaceClip">
+      <rect width="1600" height="410" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#palaceClip)">
+    <rect width="1600" height="410" fill="url(#palaceBg)"/>
+    <rect width="1600" height="410" fill="url(#palaceGlow)"/>
+    <rect width="1600" height="410" fill="url(#palaceGrid)"/>
+
+    <!-- Vertical Divider Hairline -->
+    <line x1="836" y1="28" x2="836" y2="382" stroke="#334155" stroke-opacity="0.55" stroke-width="1" stroke-dasharray="4 6"/>
+
+    <!-- ============================================================ -->
+    <!-- LEFT COLUMN : EDITORIAL NARRATIVE & TELEMETRY                -->
+    <!-- ============================================================ -->
+
+    <!-- Top Badges -->
+    <g transform="translate(56, 42)">
+      <rect x="0" y="0" width="218" height="28" rx="14" fill="#0c192c" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1"/>
+      <circle cx="16" cy="14" r="3.5" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="28" y="18" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.8" fill="#7dd3fc">FLAGSHIP WORLD // 01</text>
+
+      <rect x="232" y="0" width="268" height="28" rx="14" fill="#06221e" stroke="#10b981" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="248" y="18" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.5" fill="#34d399">LIVE : YNS34-HUB.GITHUB.IO ↗</text>
+    </g>
+
+    <!-- Main Title & Subtitle -->
+    <g transform="translate(56, 122)">
+      <text x="0" y="0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5" fill="#ffffff">THE MEMORY PALACE</text>
+      <text x="488" y="-2" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" font-weight="600" fill="#7dd3fc">· 个人三维数字展馆与空间世界</text>
+
+      <text x="0" y="34" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#cbd5e1">“Jie Tian’s personal world — collected, not generated.”</text>
+    </g>
+
+    <!-- Description Body -->
+    <g transform="translate(56, 194)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5" fill="#94a3b8">
+      <text x="0" y="0">An interconnected 3D browser museum and research archive. Visitors walk through a <tspan fill="#e2e8f0" font-weight="600">biconcave optical</tspan></text>
+      <text x="0" y="24"><tspan fill="#e2e8f0" font-weight="600">glass atrium</tspan>, inspect <tspan fill="#e2e8f0" font-weight="600">five-stage nonlinear mathematics</tspan>, launch live sandboxed sites in the <tspan fill="#7dd3fc" font-weight="600">Liquid Web</tspan></text>
+      <text x="0" y="48"><tspan fill="#7dd3fc" font-weight="600">Gallery</tspan>, and ride a <tspan fill="#fbbf24" font-weight="600">10.17 km swisstopo DEM Alpine pass</tspan> or practice on a physically lit street court.</text>
+    </g>
+
+    <!-- Spec Pills / Tech Telemetry -->
+    <g transform="translate(56, 282)" font-family="'JetBrains Mono', Consolas, monospace" font-size="11">
+      <rect x="0" y="0" width="132" height="30" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="19" fill="#7dd3fc">TypeScript 5</text>
+
+      <rect x="144" y="0" width="154" height="30" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="158" y="19" fill="#e2e8f0">Three.js / WebGL2</text>
+
+      <rect x="310" y="0" width="148" height="30" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="324" y="19" fill="#e2e8f0">PMREM PBR Glass</text>
+
+      <rect x="470" y="0" width="138" height="30" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="484" y="19" fill="#fbbf24">8K Swisstopo DEM</text>
+
+      <rect x="620" y="0" width="140" height="30" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="634" y="19" fill="#34d399">Spatial WebAudio</text>
+    </g>
+
+    <!-- Bottom Action Prompt -->
+    <g transform="translate(56, 356)" font-family="'JetBrains Mono', Consolas, monospace" font-size="11.5" letter-spacing="1.6">
+      <text x="0" y="0" fill="#38bdf8" font-weight="600">→ CLICK CARD TO ENTER THE LIVE 3D MUSEUM (YNS34-HUB.GITHUB.IO)</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- RIGHT COLUMN : ARCHITECTURAL FLOORPLAN & 6 SPATIAL WINGS     -->
+    <!-- ============================================================ -->
+
+    <g transform="translate(876, 40)">
+      <text x="0" y="14" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#94a3b8">SPATIAL ARCHITECTURE // 6 INTERCONNECTED WINGS</text>
+      <text x="530" y="14" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" fill="#38bdf8">WASD + MOUSE</text>
+
+      <!-- Connecting Blueprint Corridor Lines -->
+      <g stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1.5">
+        <line x1="165" y1="95" x2="500" y2="95"/>
+        <line x1="165" y1="205" x2="500" y2="205"/>
+        <line x1="165" y1="95" x2="165" y2="205"/>
+        <line x1="500" y1="95" x2="500" y2="205"/>
+        <line x1="332" y1="60" x2="332" y2="295" stroke-dasharray="3 5"/>
+      </g>
+
+      <!-- Wing 01: Pearl / Ice / Glass Atrium -->
+      <g transform="translate(0, 36)">
+        <rect x="0" y="0" width="212" height="86" rx="10" fill="#091526" stroke="url(#wingStroke)" stroke-width="1.2"/>
+        <text x="14" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38bdf8">WING 01 // ATRIUM</text>
+        <text x="14" y="44" font-family="Inter, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">Optical Glass Cavity</text>
+        <text x="14" y="64" font-family="Inter, sans-serif" font-size="11.5" fill="#94a3b8">Biconcave PMREM glass &amp; lightwell</text>
+      </g>
+
+      <!-- Wing 02: Nonlinear Mathematics Lab -->
+      <g transform="translate(228, 36)">
+        <rect x="0" y="0" width="212" height="86" rx="10" fill="#091526" stroke="url(#wingStroke)" stroke-width="1.2"/>
+        <text x="14" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#7dd3fc">WING 02 // RESEARCH</text>
+        <text x="14" y="44" font-family="Inter, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">Nonlinear Math &amp; Audit</text>
+        <text x="14" y="64" font-family="Inter, sans-serif" font-size="11.5" fill="#94a3b8">5-step human-led verification</text>
+      </g>
+
+      <!-- Wing 03: Liquid Web Gallery -->
+      <g transform="translate(456, 36)">
+        <rect x="0" y="0" width="212" height="86" rx="10" fill="#091526" stroke="url(#wingStroke)" stroke-width="1.2"/>
+        <text x="14" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38bdf8">WING 03 // EXHIBITION</text>
+        <text x="14" y="44" font-family="Inter, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">Liquid Web Pavilion</text>
+        <text x="14" y="64" font-family="Inter, sans-serif" font-size="11.5" fill="#94a3b8">8 interactive web works in-world</text>
+      </g>
+
+      <!-- Wing 04: The Alpine Descent (10.17 km) -->
+      <g transform="translate(0, 140)">
+        <rect x="0" y="0" width="212" height="86" rx="10" fill="#091526" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1.2"/>
+        <text x="14" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#fbbf24">WING 04 // /ALPINE-RIDE</text>
+        <text x="14" y="44" font-family="Inter, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">The Alpine Descent</text>
+        <text x="14" y="64" font-family="Inter, sans-serif" font-size="11.5" fill="#94a3b8">10.17 km Furka Pass road cycling</text>
+      </g>
+
+      <!-- Wing 05: Street Basketball & Motion Lab -->
+      <g transform="translate(228, 140)">
+        <rect x="0" y="0" width="212" height="86" rx="10" fill="#091526" stroke="#34d399" stroke-opacity="0.5" stroke-width="1.2"/>
+        <text x="14" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34d399">WING 05 // KINEMATICS</text>
+        <text x="14" y="44" font-family="Inter, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">Courtside &amp; Motion Lab</text>
+        <text x="14" y="64" font-family="Inter, sans-serif" font-size="11.5" fill="#94a3b8">Procedural basketball &amp; gym IK</text>
+      </g>
+
+      <!-- Wing 06: Acoustic Listening Room -->
+      <g transform="translate(456, 140)">
+        <rect x="0" y="0" width="212" height="86" rx="10" fill="#091526" stroke="url(#wingStroke)" stroke-width="1.2"/>
+        <text x="14" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a855f7">WING 06 // ACOUSTICS</text>
+        <text x="14" y="44" font-family="Inter, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">Listening Sanctuary</text>
+        <text x="14" y="64" font-family="Inter, sans-serif" font-size="11.5" fill="#94a3b8">Curved glass fins &amp; spatial lyrics</text>
+      </g>
+
+      <!-- Bottom Telemetry Bar inside Right Column -->
+      <g transform="translate(0, 252)">
+        <rect x="0" y="0" width="668" height="72" rx="10" fill="#060d18" stroke="#1e293b" stroke-width="1"/>
+        <!-- Elevation Profile Curve (Furka Pass 10.17km) -->
+        <path d="M 18 54 Q 90 18, 170 28 T 320 22 T 480 42 T 650 52" fill="none" stroke="#38bdf8" stroke-width="1.6"/>
+        <path d="M 18 54 Q 90 18, 170 28 T 320 22 T 480 42 T 650 52 L 650 62 L 18 62 Z" fill="#38bdf8" fill-opacity="0.1"/>
+        <text x="20" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#cbd5e1">ELEVATION &amp; FRAME TELEMETRY // 1080P · 1440P · DETERMINISTIC QA</text>
+        <text x="515" y="24" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34d399">● VERIFIED BUILD</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="408" rx="19" fill="none" stroke="url(#palaceBorder)" stroke-width="2"/>
+</svg>

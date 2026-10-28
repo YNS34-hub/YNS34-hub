@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="350" viewBox="0 0 780 350" role="img" aria-label="GIANNIS EDITORIAL — Sports-Editorial Visual Study">
+  <defs>
+    <linearGradient id="bgGiannis" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040b09"/>
+      <stop offset="100%" stop-color="#091914"/>
+    </linearGradient>
+    <radialGradient id="glowGiannis" cx="85%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#f59e0b" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#040b09" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderGiannis" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.45"/>
+    </linearGradient>
+    <pattern id="gridGiannis" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94a3b8" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clipGiannis">
+      <rect width="780" height="350" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clipGiannis)">
+    <rect width="780" height="350" fill="url(#bgGiannis)"/>
+    <rect width="780" height="350" fill="url(#glowGiannis)"/>
+    <rect width="780" height="350" fill="url(#gridGiannis)"/>
+
+    <!-- Swiss Editorial Grid & Numeral 34 Motif (Top Right) -->
+    <g transform="translate(536, 26)" opacity="0.9">
+      <rect x="24" y="12" width="144" height="104" rx="8" fill="none" stroke="#34d399" stroke-opacity="0.35" stroke-width="1.2"/>
+      <line x1="72" y1="12" x2="72" y2="116" stroke="#34d399" stroke-opacity="0.22"/>
+      <line x1="24" y1="52" x2="168" y2="52" stroke="#34d399" stroke-opacity="0.22"/>
+      <text x="82" y="98" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="56" font-weight="700" fill="#34d399" fill-opacity="0.75">34</text>
+      <text x="34" y="138" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="2" fill="#6ee7b7">GRID // SWISS EDITORIAL</text>
+    </g>
+
+    <!-- Index Badge -->
+    <g transform="translate(42, 38)">
+      <rect x="0" y="0" width="204" height="26" rx="13" fill="#06221a" stroke="#10b981" stroke-opacity="0.45"/>
+      <text x="14" y="17" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.8" fill="#6ee7b7">EDITORIAL WEB // 06</text>
+    </g>
+
+    <!-- Title & Subtitle -->
+    <g transform="translate(42, 108)">
+      <text x="0" y="0" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="29" font-weight="800" letter-spacing="-0.8" fill="#ffffff">GIANNIS EDITORIAL</text>
+      <text x="0" y="28" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="600" fill="#6ee7b7">字母哥视觉排版专题站 · 长篇叙事与响应式构图</text>
+    </g>
+
+    <!-- Description -->
+    <g transform="translate(42, 174)" font-family="Inter, -apple-system, sans-serif" font-size="14" fill="#94a3b8">
+      <text x="0" y="0">A sports-editorial visual study focused on <tspan fill="#e2e8f0" font-weight="600">long-form magazine</tspan></text>
+      <text x="0" y="23"><tspan fill="#e2e8f0" font-weight="600">storytelling</tspan>, <tspan fill="#6ee7b7" font-weight="600">responsive typographic rhythm</tspan>, and image-led art</text>
+      <text x="0" y="46">direction celebrating Giannis Antetokounmpo (#34 — YNS34 namesake).</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="42" y1="256" x2="738" y2="256" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Tech Stack & Action Link -->
+    <g transform="translate(42, 278)" font-family="'JetBrains Mono', Consolas, monospace" font-size="11">
+      <rect x="0" y="0" width="118" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="18" fill="#6ee7b7">Modern CSS</text>
+
+      <rect x="130" y="0" width="148" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="144" y="18" fill="#e2e8f0">Editorial Layout</text>
+
+      <rect x="290" y="0" width="136" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="304" y="18" fill="#fbbf24">Live Preview</text>
+
+      <text x="568" y="18" fill="#6ee7b7" font-weight="600">EXPLORE REPO ↗</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="778" height="348" rx="17" fill="none" stroke="url(#borderGiannis)" stroke-width="2"/>
+</svg>

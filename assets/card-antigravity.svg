@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="350" viewBox="0 0 780 350" role="img" aria-label="MEMORY PALACE: REBORN — Non-Euclidean Browser-Based Spatial Memory Experience">
+  <defs>
+    <linearGradient id="bgAnti" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060814"/>
+      <stop offset="100%" stop-color="#111029"/>
+    </linearGradient>
+    <radialGradient id="glowAnti" cx="85%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.24"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#060814" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderAnti" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.45"/>
+    </linearGradient>
+    <pattern id="gridAnti" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94a3b8" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clipAnti">
+      <rect width="780" height="350" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clipAnti)">
+    <rect width="780" height="350" fill="url(#bgAnti)"/>
+    <rect width="780" height="350" fill="url(#glowAnti)"/>
+    <rect width="780" height="350" fill="url(#gridAnti)"/>
+
+    <!-- Non-Euclidean Hypercube / Tesseract Projection (Top Right) -->
+    <g transform="translate(544, 28)" fill="none" opacity="0.9">
+      <!-- Outer Cube -->
+      <polygon points="88,12 156,42 156,102 88,132 20,102 20,42" stroke="#c084fc" stroke-opacity="0.45" stroke-width="1.3"/>
+      <!-- Inner Shifted Cube -->
+      <polygon points="88,36 132,56 132,96 88,116 44,96 44,56" stroke="#38bdf8" stroke-opacity="0.75" stroke-width="1.5"/>
+      <!-- Connecting Vertices -->
+      <line x1="88" y1="12" x2="88" y2="36" stroke="#a855f7" stroke-opacity="0.5"/>
+      <line x1="156" y1="42" x2="132" y2="56" stroke="#a855f7" stroke-opacity="0.5"/>
+      <line x1="156" y1="102" x2="132" y2="96" stroke="#a855f7" stroke-opacity="0.5"/>
+      <line x1="88" y1="132" x2="88" y2="116" stroke="#a855f7" stroke-opacity="0.5"/>
+      <line x1="20" y1="102" x2="44" y2="96" stroke="#a855f7" stroke-opacity="0.5"/>
+      <line x1="20" y1="42" x2="44" y2="56" stroke="#a855f7" stroke-opacity="0.5"/>
+      <circle cx="88" cy="76" r="4.5" fill="#e9d5ff"/>
+      <text x="18" y="152" font-family="'JetBrains Mono', monospace" font-size="9.5" letter-spacing="2" fill="#c084fc">TOPOLOGY // NON-EUCLIDEAN</text>
+    </g>
+
+    <!-- Index Badge -->
+    <g transform="translate(42, 38)">
+      <rect x="0" y="0" width="212" height="26" rx="13" fill="#1b1035" stroke="#c084fc" stroke-opacity="0.45"/>
+      <text x="14" y="17" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600" letter-spacing="1.8" fill="#d8b4fe">ARCHITECTURE // 04</text>
+    </g>
+
+    <!-- Title & Subtitle -->
+    <g transform="translate(42, 108)">
+      <text x="0" y="0" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.8" fill="#ffffff">MEMORY PALACE : REBORN</text>
+      <text x="0" y="28" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14.5" font-weight="600" fill="#d8b4fe">非欧几里得浏览器空间记忆体验 · 空间叙事原型</text>
+    </g>
+
+    <!-- Description -->
+    <g transform="translate(42, 174)" font-family="Inter, -apple-system, sans-serif" font-size="14" fill="#94a3b8">
+      <text x="0" y="0">An architectural prototype investigating <tspan fill="#e2e8f0" font-weight="600">non-Euclidean spatial transitions</tspan>,</text>
+      <text x="0" y="23"><tspan fill="#e2e8f0" font-weight="600">corridor cross-section morphing</tspan>, and <tspan fill="#d8b4fe" font-weight="600">spatialized memory indexing</tspan> inside a</text>
+      <text x="0" y="46">zero-install browser environment with custom portal-like state machines.</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="42" y1="256" x2="738" y2="256" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Tech Stack & Action Link -->
+    <g transform="translate(42, 278)" font-family="'JetBrains Mono', Consolas, monospace" font-size="11">
+      <rect x="0" y="0" width="110" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="18" fill="#d8b4fe">JavaScript</text>
+
+      <rect x="122" y="0" width="152" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="136" y="18" fill="#e2e8f0">Spatial Topology</text>
+
+      <rect x="286" y="0" width="136" height="28" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="300" y="18" fill="#7dd3fc">3D Navigation</text>
+
+      <text x="568" y="18" fill="#d8b4fe" font-weight="600">EXPLORE REPO ↗</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="778" height="348" rx="17" fill="none" stroke="url(#borderAnti)" stroke-width="2"/>
+</svg>
